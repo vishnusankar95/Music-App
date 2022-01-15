@@ -1,0 +1,105 @@
+.loginpopmain{
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,.7);
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 99999;
+    color: #000;
+}
+
+.login {
+    width: 100%;
+    background: #fff;
+    position: absolute;
+    text-align: left;
+    top: 50%;
+    left: 50%;
+    padding: 50px;
+    max-width: 500px;
+    box-sizing: border-box;
+    padding: 50px;
+    border-radius: 5px;
+    transform: translate(-50%,-50%);
+}
+
+.log_h3{
+    font-size: 24px;
+    text-transform: uppercase;
+}
+
+.loginpop_p {
+    font-size: 14px;
+    padding: 15px 0;
+    font-weight: 600;
+    line-height: 20px;
+}
+
+.loginpop > .fa_times_circle {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    color: #000;
+    font-size: 20px;
+    cursor: pointer;
+
+    font-family: "Font Awesome 5 Pro";
+    font-weight: 300;
+}
+
+.login > .input {
+    border: 1px solid #ececec;
+    padding: 20px;
+    width: 100%;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+    color: #6d6d6d;
+}
+
+.login > .button {
+    width: 100%;
+    background: #fc6486;
+    color: #fff;
+    font-size: 13px;
+    font-weight: 600;
+    text-align: center;
+    padding: 20px 0;
+    text-transform: uppercase;
+    margin-top: 30px;
+    display: block;
+}
+
+.loginor {
+    text-align: center;
+    margin: 30px auto 0;
+    width: 80%;
+}
+
+.loginor_h5 {
+    /* position: relative; */
+    font-size: 13px;
+    line-height: 0.1em;
+    text-align: center; 
+    border-bottom: 1px solid #EDEDED; 
+}
+
+.loginor_span {
+    /* position: relative; */
+    background: #fbfbfb;
+    padding:0 10px; 
+    font-weight: 500;
+}
+
+.loginother {
+    text-align: center;
+    margin-top: 35px;
+}
+
+.loginother_img {
+    max-width: 140px;
+    width: 100%;
+    display: inline-block;
+    margin: 0 2px;
+    cursor: pointer;
+}
